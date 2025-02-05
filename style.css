@@ -1,0 +1,143 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    margin: 25px;
+    text-align: left;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 2%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+label{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+button{
+    border-style: none;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.628);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.l-header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+}
+.logo{
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.b-logo{
+    margin-top: 50px;
+    width: 100%;
+}
+.offen{
+   margin: 0;
+   margin-left: 20px;
+}
+.white{
+    color: white;
+    text-align: center;
+}
+.k-w{
+    margin-top: 20px;
+}
+.k-h2{
+    margin: 0%;
+}
+.kurse{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.g-column{
+    display: flex;
+    flex-direction: column;
+}
+.anmelden{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-top: 150px;
+}
+.i_anmelden{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.vorname{
+    margin-right: 27px;
+}
+.email{
+    margin-right: 52px;
+}
+.impressum{
+    text-align: left;
+    margin-top: 50px;
+}
+.i-1{
+    margin: 0%;
+}
+.SB{
+    text-align: center;
+}
+.Intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
